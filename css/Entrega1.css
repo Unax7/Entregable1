@@ -1,25 +1,24 @@
-body{
+body {
     background-color: #FFF5E0;
 }
 
-#titulogrande{
-text-align: left;
-color: #FFF5E0;
-font-family: 'Arial';
-font-style: italic;
-font-size: 50px;
-margin: 10px;
-padding: 10px;
+#titulogrande {
+    text-align: left;
+    color: #FFF5E0;
+    font-family: 'swis721 ex bt';
+    font-size: 50px;
+    margin: 10px;
+    padding: 10px;
 }
 
-.menu{
+.menu {
     display: flex;
     list-style: none;
     margin: 0;
     padding: 0;
 }
 
-.menu li{
+.menu li a{
     font-family: 'Arial';
     font-weight: bold;
     margin: 15px;
@@ -27,7 +26,15 @@ padding: 10px;
     padding: 10px;
 }
 
-header{
+.menu li a:hover{
+    font-family: 'Arial';
+    font-weight: bold;
+    margin: 15px;
+    color: blue;
+    padding: 10px;
+}
+
+header {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -37,13 +44,13 @@ header{
     border-color: white;
 }
 
-.sectionhistoria{
+.sectionhistoria {
     display: flex;
     justify-content: space-between;
     padding: 5px;
 }
 
-.articulohistoria{
+.articulohistoria {
     padding: 20px;
     margin: 30px;
     background-color: white;
@@ -52,7 +59,7 @@ header{
     border-radius: 5%;
 }
 
-h2{
+h2 {
     text-align: center;
     color: #911919;
     font-family: 'Arial';
@@ -60,9 +67,83 @@ h2{
     justify-content: space-around;
 }
 
-p{
+p {
     font-size: large;
     color: black;
     justify-content: space-between;
     text-align: center;
+}
+
+.imageninicio {
+    text-align: center;
+    margin: 30px 0px;
+    padding: 0px 10px;
+}
+
+.imageninicio img {
+    justify-content: space-between;
+    width: 425px;
+    height: 350px;
+    border: 2px solid white;
+    border-radius: 10px;
+}
+
+.footerinicio {
+    background-color: #8b1515;
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 40px 20px 20px 20px;
+    margin-top: 50px;
+}
+
+.footercolumna {
+    flex: auto;
+    min-width: 250px;
+    margin-bottom: 20px;
+    padding: 0 15px;
+}
+
+.footercolumna h4 {
+    font-family: Arial, Helvetica, sans-serif;
+    border-bottom: 2px solid white;
+    padding-bottom: 10px;
+    margin-bottom: 15px;
+    font-size: large;
+}
+
+.footercolumna p {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #FFF5E0;
+    font-size: small;
+}
+
+.footercolumna ul {
+    padding: 0;
+}
+
+.footercolumna ul li {
+    margin-bottom: 10px;
+}
+
+.footercolumna ul li a {
+    color: #FFF5E0;
+}
+
+.footercolumna ul li a:hover {
+    color: blue;
+}
+
+.legal {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    width: 100%;
+    margin-top: 20px;
+    padding-top: 15px;
+    font-size: small;
+}
+
+.pantalla{
+    display: none;
 }
