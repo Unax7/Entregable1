@@ -147,3 +147,145 @@ p {
 .pantalla{
     display: none;
 }
+
+
+/* COMPRA */
+
+.tasacion {
+    max-width: 900px;
+    margin: 40px auto;
+    padding: 0 20px;
+    text-align: center;
+}
+
+.iniciotasacion {
+    font-size: large;
+    line-height: 1;
+    margin-bottom: 30px;
+    color: black;
+}
+
+.tablaprecios {
+    width: 100%;
+    margin-bottom: 40px;
+    background-color: white;
+    border: 1px solid #911919;
+}
+
+
+.tablaprecios th, .tablaprecios td {
+    padding: 15px;
+    border: 1px solid #911919;
+    text-align: center;
+}
+
+.tablaprecios th {
+    background-color: #911919;
+    color: white;
+    font-weight: bold;
+}
+
+.llamartasacion {
+    margin-top: 30px;
+    padding: 20px;
+    background-color: #FFF5E0;
+    border-radius: 8px;
+}
+
+.botontasacion {
+    display: inline-block;
+    background-color: #911919;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.botontasacion:hover {
+    background-color: #911919;
+}
+
+
+/* NOSOTROS */
+
+.contacto {
+    max-width: 650px;
+    margin: 40px auto;
+    padding: 30px;
+    background-color: #FFF5E0;
+    border-radius: 8px;
+}
+
+.seccioncontacto h2 {
+    text-align: center;
+    color: #8b1515;
+    margin-bottom: 15px;
+}
+
+.seccioncontacto p {
+    text-align: center;
+    margin-bottom: 25px;
+    color: black;
+    line-height: 5px;
+}
+
+.formulario {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.grupo label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 8px;
+    color: black;
+}
+
+.grupo textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid white;
+    border-radius: 4px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.grupo {
+    width: 100%;
+    padding: 12px;
+    border: 3px solid white;
+    border-radius: 4px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.radios p {
+    font-weight: bold;
+    margin-bottom: 8px;
+    color: black;
+}
+
+.radios label,
+.checkbox label {
+    font-weight: normal;
+    margin-right: 20px;
+}
+
+.checkbox input {
+    margin-right: 10px;
+}
+
+.botonenviar {
+    background-color: #911919;
+    color: white;
+    padding: 15px;
+    border: none;
+    border-radius: 5px;
+    font-size: large;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.botonenviar:hover {
+    background-color: #911919;
+}
