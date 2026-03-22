@@ -22,8 +22,12 @@
 
     <main>
         <section class="contacto">
+
+            <img class="imagencontacto" src="images/Contacto1.png" alt="Contacta con Nosotros">
             <h2>Contáctanos</h2>
-            <p>¿Tienes dudas, quieres tasar un equipo o buscas una pieza específica? Rellena el siguiente formulario y nos pondremos en contacto contigo lo antes posible.</p>
+
+            <p>¿Tienes dudas, quieres tasar un equipo o buscas una pieza específica? Rellena el siguiente formulario y
+                nos pondremos en contacto contigo lo antes posible.</p>
 
             <form action="#" method="POST" class="formulario">
                 <div class="grupo">
@@ -38,7 +42,8 @@
 
                 <div class="grupo">
                     <label for="nombre">Contraseña:</label>
-                    <input type="password" id="contraseña" name="contraseña" required placeholder="Contraseña del Correo">
+                    <input type="password" id="contraseña" name="contraseña" required
+                        placeholder="Contraseña del Correo">
                 </div>
 
                 <div class="grupo">
@@ -48,7 +53,7 @@
 
                 <div class="grupo">
                     <label for="cantidad">Cantidad de equipos sobre los que consultas:</label>
-                    <input type="number" id="cantidad" name="cantidad" min="1" max="50" value="1">
+                    <input type="number" id="cantidad" name="cantidad">
                 </div>
 
                 <div class="grupo">
@@ -67,10 +72,11 @@
                 </div>
 
                 <div class="grupo">
-                    <label for="equipo_interes">¿Sobre qué equipo concreto nos escribes? (Opcional. Solo responder si el equipo está en venta)</label>
+                    <label for="equipo_interes">¿Sobre qué equipo concreto nos escribes? (Opcional. Solo responder si el
+                        equipo está en venta)</label>
                     <select id="equipo_interes" name="equipo_interes">
                         <option value="ninguno">Selecciona un equipo</option>
-                        
+
                         <optgroup label="Ordenadores">
                             <option value="commodore64">Commodore 64</option>
                             <option value="amiga500">Commodore Amiga 500</option>
@@ -102,7 +108,8 @@
 
                 <div class="grupo">
                     <label for="mensaje">Describe tu consulta o el estado del equipo:</label>
-                    <textarea id="mensaje" name="mensaje" rows="4" required placeholder="Escribe aquí los detalles..."></textarea>
+                    <textarea id="mensaje" name="mensaje" rows="4" required
+                        placeholder="Escribe aquí los detalles..."></textarea>
                 </div>
 
                 <div class="grupo checkbox">
@@ -112,7 +119,7 @@
                     </label>
                 </div>
 
-                <button type="submit" class="botonenviar">Enviar Mensaje</button>
+                <button type="button" class="botonenviar" onclick="procesarFormularioContacto()">Enviar</button>
             </form>
         </section>
     </main>
