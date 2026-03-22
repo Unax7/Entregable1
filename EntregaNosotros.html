@@ -22,7 +22,7 @@
 
     <main>
         <section class="contacto">
-            <h2>Sobre Nosotros</h2>
+            <h2>Contáctanos</h2>
             <p>¿Tienes dudas, quieres tasar un equipo o buscas una pieza específica? Rellena el siguiente formulario y nos pondremos en contacto contigo lo antes posible.</p>
 
             <form action="#" method="POST" class="formulario">
@@ -37,8 +37,13 @@
                 </div>
 
                 <div class="grupo">
+                    <label for="nombre">Contraseña:</label>
+                    <input type="password" id="contraseña" name="contraseña" required placeholder="Contraseña del Correo">
+                </div>
+
+                <div class="grupo">
                     <label for="email">Teléfono:</label>
-                    <input type="email" id="email" name="email" required placeholder="Telefono">
+                    <input type="number" id="telefono" name="telefono" required placeholder="Telefono">
                 </div>
 
                 <div class="grupo">
@@ -58,6 +63,34 @@
                         <option value="compra">Busco una pieza o equipo concreto</option>
                         <option value="restauracion">Necesito servicio para restaurar</option>
                         <option value="otros">Otros</option>
+                    </select>
+                </div>
+
+                <div class="grupo">
+                    <label for="equipo_interes">¿Sobre qué equipo concreto nos escribes? (Opcional. Solo responder si el equipo está en venta)</label>
+                    <select id="equipo_interes" name="equipo_interes">
+                        <option value="ninguno">Selecciona un equipo</option>
+                        
+                        <optgroup label="Ordenadores">
+                            <option value="commodore64">Commodore 64</option>
+                            <option value="amiga500">Commodore Amiga 500</option>
+                        </optgroup>
+
+                        <optgroup label="Juego y Consolas">
+                            <option value="snes">Super Nintendo (SNES)</option>
+                            <option value="gameboy">Nintendo Game Boy Classic</option>
+                            <option value="neogeo">Placa Arcade Neo Geo MVS</option>
+                        </optgroup>
+
+                        <optgroup label="Periféricos">
+                            <option value="monitor_sony">Monitor CRT Sony Trinitron</option>
+                            <option value="teclado_ibm">Teclado IBM Model M</option>
+                            <option value="raton_apple">Apple Desktop Bus Mouse</option>
+                        </optgroup>
+
+                        <optgroup label="Audio / Otros">
+                            <option value="walkman">Sony Walkman WM-F41</option>
+                        </optgroup>
                     </select>
                 </div>
 
